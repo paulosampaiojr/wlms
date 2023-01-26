@@ -1,0 +1,36 @@
+{
+    "name": "paulo/projeto_lab",
+    "autoload": {
+        "psr-4": {
+            "Netga\\ProjetoLab\\": "src/"
+        },
+        "files": [
+            "assets/constants/constants.php",
+            "assets/functions/converter_segundos_em_horas.php",
+            "assets/functions/lista_de_chamada_por_dia.php",
+            "assets/functions/listar_nome_do_mes_em_pt.php",
+            "assets/functions/listar_titulos_das_disciplinas_para_relatorios.php",
+            "assets/functions/listar_meses_de_atuacao.php",
+            "assets/functions/mostrar_faltas_dos_alunos.php",
+            "assets/functions/mostrar_informacoes_dos_alunos_por_mes.php",
+            "assets/functions/mostrar_total_de_faltas_dos_alunos.php",
+            "assets/functions/mostrar_informacoes_do_aluno.php",
+            "assets/functions/mostrar_total_de_horas_por_mes_e_aluno.php",
+            "assets/functions/mostrar_total_de_horas_por_mes.php",
+            "assets/functions/mostrar_lista_de_faltas.php",
+            "assets/functions/listar_disciplinas_de_horas_por_disciplinas.php",
+            "assets/functions/listar_disciplinas_de_horas_por_mes.php",
+            "assets/functions/listar_dias_que_tiveram_aula.php",
+            "assets/functions/listar_lista_de_faltas_postadas_e_pendentes.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rodrigo da Silva",
+            "email": "74737267+Rodrigo-bs@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^0.18.3"
+    }
+}
